@@ -1,0 +1,41 @@
+.containerNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerUser {
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+
+  color: tomato;
+
+  border-radius: 50px;
+}
+.user {
+  margin-left: 15px;
+
+  color: white;
+}
+.btn {
+  min-width: 90px;
+  height: 35px;
+  font-size: 20px;
+  color: rgb(122, 122, 122);
+  padding: 5px;
+  background-color: rgb(163, 203, 255);
+  border: none;
+  border-radius: 10px;
+  margin-left: 15px;
+
+  cursor: pointer;
+  outline: none;
+
+  transition: color 300ms linear, background-color 300ms linear;
+}
+.btn:hover,
+.btn:focus {
+  color: black;
+  background-color: rgb(98, 166, 255);
+  transition: color 300ms linear, background-color 300ms linear;
+}

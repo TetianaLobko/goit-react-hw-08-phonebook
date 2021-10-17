@@ -1,0 +1,41 @@
+.btn {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 30px 0 40px;
+  margin: 0 20px;
+  background: linear-gradient(-180deg, #000000, #fe44ee);
+  border-width: 0;
+  border-radius: 50px;
+  font-family: "Alegreya";
+  /* font-family: "Montserrat Alternates", sans-serif; */
+  font-size: 14px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+
+  margin-top: 15px;
+}
+.btn:before {
+  content: "\260E";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  font-family: "Alegreya";
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: transparent;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover:before {
+  background: white;
+  color: #24d8f7;
+}
+.btn:hover {
+  box-shadow: 0 15px 65px #4753ff;
+  transition: 0.4s ease-in-out;
+}

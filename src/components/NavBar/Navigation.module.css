@@ -1,0 +1,28 @@
+.generalNavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+  font-family: "Alegreya";
+}
+
+.linkNavig {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(236, 242, 243);
+  padding: 10px;
+  background-color: rgb(139, 24, 192);
+  border-radius: 10px;
+  font-family: "Alegreya";
+}
+.linkNavig:not(:last-child) {
+  margin-right: 30px;
+}
+.active {
+  color: rgb(107, 0, 194);
+  background-color: rgb(98, 166, 255);
+  transition: color 300ms linear, background-color 300ms linear;
+}
